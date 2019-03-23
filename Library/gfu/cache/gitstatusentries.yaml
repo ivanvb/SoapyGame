@@ -1,0 +1,1135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2019-03-16T11:54:34.759-04:00
+  initializedAtString: 2019-03-16T11:54:15.407-04:00
+  entries:
+  - path: .vs\Soapy\v15\.suo
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\.vs\Soapy\v15\.suo
+    projectPath: .vs\Soapy\v15\.suo
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs\Soapy\v15\Server\sqlite3\storage.ide
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\.vs\Soapy\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\Soapy\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs\Soapy\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\.vs\Soapy\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Soapy\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .vs\Soapy\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\.vs\Soapy\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Soapy\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\credits.txt
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\credits.txt
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\eula.txt
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\eula.txt
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\libsfw.so
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Resources\Level.json
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Resources\Level.json
+    projectPath: Assets\Resources\Level.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Resources\Prefabs\Cards\Small_cards\anuel_card.prefab
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Resources\Prefabs\Cards\Small_cards\anuel_card.prefab
+    projectPath: Assets\Resources\Prefabs\Cards\Small_cards\anuel_card.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Resources\Prefabs\Cards\Small_cards\emili_card.prefab
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Resources\Prefabs\Cards\Small_cards\emili_card.prefab
+    projectPath: Assets\Resources\Prefabs\Cards\Small_cards\emili_card.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Resources\Prefabs\Cards\Small_cards\socrates_card.prefab
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Resources\Prefabs\Cards\Small_cards\socrates_card.prefab
+    projectPath: Assets\Resources\Prefabs\Cards\Small_cards\socrates_card.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Resources\Prefabs\Cards\Small_cards\steve_jobs_card.prefab
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Resources\Prefabs\Cards\Small_cards\steve_jobs_card.prefab
+    projectPath: Assets\Resources\Prefabs\Cards\Small_cards\steve_jobs_card.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Resources\Prefabs\TextMeshPro Text 1.prefab
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Resources\Prefabs\TextMeshPro
+      Text 1.prefab
+    projectPath: Assets\Resources\Prefabs\TextMeshPro Text 1.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Resources\Prefabs\TextMeshPro Text 1.prefab.meta
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Resources\Prefabs\TextMeshPro
+      Text 1.prefab.meta
+    projectPath: Assets\Resources\Prefabs\TextMeshPro Text 1.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\GameScene.unity
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Scenes\GameScene.unity
+    projectPath: Assets\Scenes\GameScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Controllers\LevelLoader.cs
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Scripts\Controllers\LevelLoader.cs
+    projectPath: Assets\Scripts\Controllers\LevelLoader.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Controllers\ResourcesController.cs
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Assets\Scripts\Controllers\ResourcesController.cs
+    projectPath: Assets\Scripts\Controllers\ResourcesController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\LastBuild.buildreport
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\LastBuild.buildreport
+    projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\0b\0b917dc4498709844a66b8981f903764
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\0b\0b917dc4498709844a66b8981f903764
+    projectPath: Library\metadata\0b\0b917dc4498709844a66b8981f903764
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\0b\0b917dc4498709844a66b8981f903764.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\0b\0b917dc4498709844a66b8981f903764.info
+    projectPath: Library\metadata\0b\0b917dc4498709844a66b8981f903764.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\23\23c8bee69b591054094d32918f98facd
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\61\61acb53242165954599d8feed1ef2956
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\61\61acb53242165954599d8feed1ef2956
+    projectPath: Library\metadata\61\61acb53242165954599d8feed1ef2956
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\61\61acb53242165954599d8feed1ef2956.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\61\61acb53242165954599d8feed1ef2956.info
+    projectPath: Library\metadata\61\61acb53242165954599d8feed1ef2956.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+    projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+    projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+    projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\87\870486115db5a9443939e35e85a126b9
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\87\870486115db5a9443939e35e85a126b9
+    projectPath: Library\metadata\87\870486115db5a9443939e35e85a126b9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\87\877ef3585573ce44eab899298be23158
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\87\877ef3585573ce44eab899298be23158
+    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\a2\a26ee00b726f6004a99034d01864c80d
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\a2\a26ee00b726f6004a99034d01864c80d
+    projectPath: Library\metadata\a2\a26ee00b726f6004a99034d01864c80d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\a2\a26ee00b726f6004a99034d01864c80d.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\a2\a26ee00b726f6004a99034d01864c80d.info
+    projectPath: Library\metadata\a2\a26ee00b726f6004a99034d01864c80d.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\ad\ad2581cea2cfd75408f9e881b71eaba9
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\ad\ad2581cea2cfd75408f9e881b71eaba9
+    projectPath: Library\metadata\ad\ad2581cea2cfd75408f9e881b71eaba9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b8\b87abb8bf38c82a46b5a925c589b6e86
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\b8\b87abb8bf38c82a46b5a925c589b6e86
+    projectPath: Library\metadata\b8\b87abb8bf38c82a46b5a925c589b6e86
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b8\b8e87741abe165d4391e765b877909c9
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\b8\b8e87741abe165d4391e765b877909c9
+    projectPath: Library\metadata\b8\b8e87741abe165d4391e765b877909c9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\b8\b8e87741abe165d4391e765b877909c9.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\b8\b8e87741abe165d4391e765b877909c9.info
+    projectPath: Library\metadata\b8\b8e87741abe165d4391e765b877909c9.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\fd\fd26258dffc07614caf588a5d03e71fd.info
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\metadata\fd\fd26258dffc07614caf588a5d03e71fd.info
+    projectPath: Library\metadata\fd\fd26258dffc07614caf588a5d03e71fd.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\0b917dc4498709844a66b8981f903764
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\0b917dc4498709844a66b8981f903764
+    projectPath: Library\PlayerDataCache\Android\Data\0b917dc4498709844a66b8981f903764
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\23feb6cdeeb2cb4478c40e4129314575
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\23feb6cdeeb2cb4478c40e4129314575
+    projectPath: Library\PlayerDataCache\Android\Data\23feb6cdeeb2cb4478c40e4129314575
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\870486115db5a9443939e35e85a126b9
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\870486115db5a9443939e35e85a126b9
+    projectPath: Library\PlayerDataCache\Android\Data\870486115db5a9443939e35e85a126b9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\a26ee00b726f6004a99034d01864c80d
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\a26ee00b726f6004a99034d01864c80d
+    projectPath: Library\PlayerDataCache\Android\Data\a26ee00b726f6004a99034d01864c80d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\b8e87741abe165d4391e765b877909c9
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\b8e87741abe165d4391e765b877909c9
+    projectPath: Library\PlayerDataCache\Android\Data\b8e87741abe165d4391e765b877909c9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\fd26258dffc07614caf588a5d03e71fd
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\fd26258dffc07614caf588a5d03e71fd
+    projectPath: Library\PlayerDataCache\Android\Data\fd26258dffc07614caf588a5d03e71fd
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\globalgamemanagers
+    projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+    projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\level0
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\level0
+    projectPath: Library\PlayerDataCache\Android\Data\level0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    projectPath: Library\PlayerDataCache\Android\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\Data\sharedassets0.assets
+    projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+    projectPath: Library\PlayerDataCache\Android\ScriptLayoutHashes.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Soapy.apk
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Soapy.apk
+    projectPath: Soapy.apk
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Soapy.sln
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Soapy.sln
+    projectPath: Soapy.sln
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\Unity.TextMeshPro.Editor.dll
+    projectPath: Temp\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\Unity.TextMeshPro.Editor.dll.mdb
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\Unity.TextMeshPro.Editor.dll.mdb
+    projectPath: Temp\Unity.TextMeshPro.Editor.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityLockfile
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-0e9be3ec711b87f4e909b230c368e888
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-0e9be3ec711b87f4e909b230c368e888
+    projectPath: Temp\UnityTempFile-0e9be3ec711b87f4e909b230c368e888
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-1b370ab3ffb9ca547a7d48588a649be0
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-1b370ab3ffb9ca547a7d48588a649be0
+    projectPath: Temp\UnityTempFile-1b370ab3ffb9ca547a7d48588a649be0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-21f2b072effdb9249bdc84dfb16773f3
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-21f2b072effdb9249bdc84dfb16773f3
+    projectPath: Temp\UnityTempFile-21f2b072effdb9249bdc84dfb16773f3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-24f9532af96a2934cbfde0e83d234d24
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-24f9532af96a2934cbfde0e83d234d24
+    projectPath: Temp\UnityTempFile-24f9532af96a2934cbfde0e83d234d24
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-2cc82444799528142ba753df3a2345fd
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-2cc82444799528142ba753df3a2345fd
+    projectPath: Temp\UnityTempFile-2cc82444799528142ba753df3a2345fd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-3de0c7bb5cc535c4db7968ba1b8da9e0
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-3de0c7bb5cc535c4db7968ba1b8da9e0
+    projectPath: Temp\UnityTempFile-3de0c7bb5cc535c4db7968ba1b8da9e0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-51e2b376d918c6c43a7621d49c8d4039
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-51e2b376d918c6c43a7621d49c8d4039
+    projectPath: Temp\UnityTempFile-51e2b376d918c6c43a7621d49c8d4039
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-6d3b8c446c9797542b3eecf1235c9eba
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-6d3b8c446c9797542b3eecf1235c9eba
+    projectPath: Temp\UnityTempFile-6d3b8c446c9797542b3eecf1235c9eba
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-7a6803ab58023b14e87d2cde6058dc9f
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-7a6803ab58023b14e87d2cde6058dc9f
+    projectPath: Temp\UnityTempFile-7a6803ab58023b14e87d2cde6058dc9f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a69608a35a50c344087222d7b9acbae5
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-a69608a35a50c344087222d7b9acbae5
+    projectPath: Temp\UnityTempFile-a69608a35a50c344087222d7b9acbae5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a97ef662e914d1b4b9dc8d5f22db86e5
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-a97ef662e914d1b4b9dc8d5f22db86e5
+    projectPath: Temp\UnityTempFile-a97ef662e914d1b4b9dc8d5f22db86e5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ab45ad4e06a9b184ebeeefae92d51206
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-ab45ad4e06a9b184ebeeefae92d51206
+    projectPath: Temp\UnityTempFile-ab45ad4e06a9b184ebeeefae92d51206
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-bea567948249fa3478eb724016798f45
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-bea567948249fa3478eb724016798f45
+    projectPath: Temp\UnityTempFile-bea567948249fa3478eb724016798f45
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-c07ded6f374dd254592da1bc88de91dc
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-c07ded6f374dd254592da1bc88de91dc
+    projectPath: Temp\UnityTempFile-c07ded6f374dd254592da1bc88de91dc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-f63521395ab2b984f9fa22fbd54c1a09
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-f63521395ab2b984f9fa22fbd54c1a09
+    projectPath: Temp\UnityTempFile-f63521395ab2b984f9fa22fbd54c1a09
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-fea7ddd61b1400a47b6526b313b89115
+    fullPath: C:\Users\IvanV\Documents\Unity Projects\Soapy\Temp\UnityTempFile-fea7ddd61b1400a47b6526b313b89115
+    projectPath: Temp\UnityTempFile-fea7ddd61b1400a47b6526b313b89115
+    originalPath: 
+    status: 1
+    staged: 0

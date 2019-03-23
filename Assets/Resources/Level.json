@@ -1,0 +1,110 @@
+{
+   "Level": [
+	
+		{
+			"tablero" : [4, 3],
+			"timer" : 30,
+			"card_size" : "big",
+			"card_arr" : ["S", "SJ", "AA", "E",
+						  "S", "SJ", "AA", "E",
+						  "AA", "SJ", "AA", "SJ"],
+			"ingredients" : ["coco2", "miel1", "agua3", "algodon2"],
+			"score" : 0,
+			"stars" : 0
+		},
+
+		{
+         "tablero" : [5, 4],
+         "timer" : 60,
+         "card_size" : "med",
+         "card_arr" : ["S", "SJ", "AA", "E","AA",
+                      "S", "SJ", "AA", "E", "AA",
+                      "S", "SJ", "AA", "E", "AA",
+					  "S", "SJ", "AA", "E", "AA"],
+          "ingredients" : ["coco2", "miel1", "agua3"],
+          "score" : 0,
+          "stars" : 0
+      },
+
+		{
+			"tablero" : [6, 5],
+			"timer" : 5,
+			"card_size" : "small",
+			"card_arr" : ["AA", "E", "SJ", "S", "AA", "AA",
+						   "E", "S", "AA", "E", "SJ", "AA",
+						   "E", "AA", "S", "S", "SJ", "E",
+						   "E", "S", "AA", "E", "SJ", "AA",
+						   "E", "AA", "S", "SJ", "SJ", "AA"],
+						   
+			"ingredients" : ["coco2", "miel1", "agua3", "algodon2"],
+			"score" : 0,
+			"stars" : 0
+		},
+
+		{
+			"tablero" : [6, 5],
+			"timer" : 35,
+			"card_size" : "small",
+			"card_arr" : ["AA", "E", "SJ", "S", "V1", "V1",
+						   "E", "S", "V1", "V1", "SJ", "AA",
+						   "E", "AA", "V1", "S", "V1", "E",
+						   "E", "V1", "V2", "E", "SJ", "AA",
+						   "V1", "V1", "S", "V1", "SJ", "AA"],
+						   
+			"ingredients" : ["coco2", "miel1", "agua3", "algodon2"],
+			"score" : 0,
+			"stars" : 0
+		},
+
+		{
+			"tablero" : [6, 5],
+			"timer" : 75,
+			"card_size" : "small",
+			"card_arr" : ["AA", "E", "SJ", "S", "AA", "AA",
+						   "V2", "S", "AA", "E", "SJ", "AA",
+						   "V2", "AA", "S", "S", "SJ", "E",
+						   "E", "S", "AA", "E", "SJ", "AA",
+						   "E", "AA", "S", "SJ", "SJ", "AA"],
+						   
+			"ingredients" : ["coco2", "miel1", "agua3", "algodon2"],
+			"score" : 0,
+			"stars" : 0
+		},
+	
+      {
+         "tablero" : [5, 3],
+         "timer" : 45,
+         "card_size" : "small",
+         "card_arr" : ["S", "SJ", "AA", "E", "V1",
+                      "S", "SJ", "AA", "E", "V2",
+                      "S", "SJ", "AA", "E", "V1"],
+        "ingredients" : ["coco2", "miel1", "agua3"],
+          "score" : 0,
+          "stars" : 0
+      },
+
+	  {
+         "tablero" : [5, 3],
+         "timer" : 45,
+         "card_size" : "big",
+         "card_arr" : ["S", "SJ", "AA", "E", "V1",
+                      "S", "SJ", "AA", "E", "V2",
+                      "S", "SJ", "AA", "E", "V1"],
+        "ingredients" : ["coco2", "miel1", "agua3"],
+          "score" : 0,
+          "stars" : 0
+      },
+
+	  {
+         "tablero" : [2, 3],
+         "timer" : 45,
+         "card_size" : "small",
+         "card_arr" : ["S", "SJ",
+                      "S", "SJ",
+					  "AA", "AA"],
+        "ingredients" : ["coco2", "miel1", "agua3"],
+          "score" : 0,
+          "stars" : 0
+      }
+   ]
+}
