@@ -3,7 +3,7 @@
 	
 		{
 			"tablero" : [4, 3],
-			"timer" : 30,
+			"timer" : 5,
 			"card_size" : "big",
 			"card_arr" : ["S", "SJ", "AA", "E",
 						  "S", "SJ", "AA", "E",

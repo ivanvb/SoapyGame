@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour {
 	public event GameStateChanged OnGameStateChange;
 
 	GameObject scripter;
+	ScoreComponents scoreComponents = new ScoreComponents();
 
 	private void Start()
 	{
@@ -48,6 +49,7 @@ public class GameController : MonoBehaviour {
 	{
 		SetGamePlayable(false);
 		scripter.GetComponent<TextAnimController>().PlayVictoryAnim();
+		scoreComponents.won = true;
 		StartCoroutine(ScoreScreen());
 	}
 
@@ -62,6 +64,24 @@ public class GameController : MonoBehaviour {
 	{
 		yield return new WaitForSeconds(3.2f);
 
+		fillScoreComponents();
 		SceneManager.LoadScene("ScoreScene", LoadSceneMode.Single);
+	}
+
+	private void fillScoreComponents()
+	{
+		float maxTime = GameObject.Find("TimeSlider").GetComponent<TimerBehaviour>().GetMaxTime();
+		float userTime = GameObject.Find("TimeSlider").GetComponent<TimerBehaviour>().GetUserTime();
+
+		int perfectMoves = GameObject.Find("Scripter").GetComponent<LevelLoader>().GetNonVirusCards();
+		int userMoves = GameObject.Find("Moves").GetComponent<MovesBehaviour>().GetScore();
+
+		scoreComponents.maxTime = maxTime;
+		scoreComponents.timeTaken = userTime;
+
+		scoreComponents.movePerfect = perfectMoves;
+		scoreComponents.moves = userMoves;
+
+		GameObject.Find("Communicator").GetComponent<Communicator>().SetScoreComponent(scoreComponents);
 	}
 }

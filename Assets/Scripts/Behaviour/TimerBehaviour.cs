@@ -97,4 +97,14 @@ public class TimerBehaviour : MonoBehaviour {
 		GameObject.Find("Scripter").GetComponent<GameController>().SetGamePlayable(true);
 	}
 
+	public float GetMaxTime()
+	{
+		return slider.maxValue;
+	}
+
+	public float GetUserTime()
+	{
+		return slider.value;
+	}
+
 }

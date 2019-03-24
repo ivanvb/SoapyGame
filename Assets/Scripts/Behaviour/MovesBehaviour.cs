@@ -26,10 +26,8 @@ public class MovesBehaviour : MonoBehaviour {
 		text.text = "Moves: " + moves.ToString();
 	}
 
-	private int GetScore()
+	public int GetScore()
 	{
 		return moves;
 	}
-
-
 }

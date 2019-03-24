@@ -55,6 +55,7 @@ public class ScorePresentation : MonoBehaviour
 
     void Start()
     {
+		LoadScore();
         //just to make timer of animatinos work (timeLeft timer is copy to others)
         timeAnimation = timeAnimationDelay;
 
@@ -89,8 +90,6 @@ public class ScorePresentation : MonoBehaviour
                 timeLeft = timeLeft - 1f;
                 timeFill = ((timeLeft - .1f) / timeTotal);
                 audioTimeleft.Play();
-
-
             }
 
 
@@ -134,20 +133,6 @@ public class ScorePresentation : MonoBehaviour
                 }
 
             }
-            /*if (Time.time > timeAnimation && moveCount < movePerfect)
-            {
-                moveImageObject.fillAmount = moveImageObject.fillAmount - .1f;
-            }
-            else if (moveUsed != movePerfect && moveCount >= movePerfect)
-            {
-                if (moveCount < moveUsed)
-                    {
-                        moveCount = moveCount + 1;
-                        moveImageObject0.fillAmount = moveImageObject0.fillAmount - .1f;
-                    }
-            }*/
-
-
         }
 
         //Score animation
@@ -164,25 +149,28 @@ public class ScorePresentation : MonoBehaviour
             {
                 scoreImageObject0.fillAmount = scoreImageObject0.fillAmount + .05f;
                 scoreSoapImageObject0.fillAmount = scoreSoapImageObject0.fillAmount + 0.05f;
-                /*if (Time.time > timeAnimation)
-                {
-                    timeAnimation = Time.time + timeAnimationDelay;
-                    scoreImageObject0.fillAmount = scoreImageObject0.fillAmount + .05f;
-                }*/
             }
             else
             {
                 audioScore.Play();
                 flagFinish = 1;
             }
-            
-
-
-
 
         }
 
     }
+
+	private void LoadScore()
+	{
+		ScoreComponents scoreComponents =  GameObject.Find("Communicator").GetComponent<Communicator>().scoreComponents;
+		timeLeft = scoreComponents.maxTime - scoreComponents.timeTaken;
+		timeTotal = scoreComponents.maxTime;
+
+		moveUsed = scoreComponents.moves;
+		movePerfect = scoreComponents.movePerfect;
+
+
+	}
 
 
 

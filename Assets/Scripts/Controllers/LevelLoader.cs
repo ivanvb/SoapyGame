@@ -198,5 +198,19 @@ public class LevelLoader : MonoBehaviour {
 		
 	}
 
+	public int GetNonVirusCards()
+	{
+		int nonVirus = 0;
+		foreach(string card in currentLevel.card_arr)
+		{
+			if(!card.Contains("V"))
+			{
+				nonVirus++;
+			}
+		}
+
+		return nonVirus;
+	}
+
 	
 }

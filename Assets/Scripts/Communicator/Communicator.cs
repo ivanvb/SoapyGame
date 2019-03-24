@@ -6,6 +6,7 @@ public class Communicator : MonoBehaviour {
 
 	public Level level;
 	public LevelList levelList;
+	public ScoreComponents scoreComponents { get; set; }
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad(gameObject);
@@ -25,4 +26,10 @@ public class Communicator : MonoBehaviour {
 	{
 		return level;
 	}
+
+	public void SetScoreComponent(ScoreComponents scoreComponents)
+	{
+		this.scoreComponents = scoreComponents;
+	}
+
 }
