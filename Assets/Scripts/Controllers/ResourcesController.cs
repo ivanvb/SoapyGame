@@ -151,7 +151,6 @@ public class ResourcesController : MonoBehaviour {
 	{
 		foreach(TextMeshProUGUI text in ingredients_count)
 		{
-			Debug.Log(text.name + " " + ing);
 			if(text.name.Contains(ing))
 			{
 				Regex totalRegex = new Regex(@"(?<=\/)(\d)+");

@@ -68,7 +68,6 @@ public class LevelLoader : MonoBehaviour {
 			for (int j = 0; j < m; j++)
 			{
 				string temporalPath = GetCurrentCardPath(currentLevel.card_arr[x]);
-				Debug.Log(temporalPath);
 				GameObject newCard = Instantiate(Resources.Load(temporalPath) as GameObject, new Vector3(appearing_x, appearing_y, appearing_z), new Quaternion(0, 180, 0, 0));
 				newCard.name = "card";
 				newCard.transform.parent = cards.transform;

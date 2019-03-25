@@ -20,18 +20,18 @@ public static class PhysicsConstants : object {
 	public const float CARD_APPEARING_Y = 3.5f;
 	public const float CARD_APPEARING_Z = 0f;
 
-	public const float SMALL_CARD_X_POSITION_OFFSET = 3.02f;
-	public const float SMALL_CARD_HORIZONTAL_SPACE_BETWEEN_CARDS = 0.85f;
+	public const float SMALL_CARD_X_POSITION_OFFSET = 2.65f;
+	public const float SMALL_CARD_HORIZONTAL_SPACE_BETWEEN_CARDS = 0.75f;
 	public const float SMALL_CARD_Y_POSITION_OFFSET = 5.25f;
 	public const float SMALL_CARD_VERTICAL_SPACE_BETWEEN_CARDS = 1.1f;
 
-	public const float MED_CARD_X_POSITION_OFFSET = 3.02f;
-	public const float MED_CARD_HORIZONTAL_SPACE_BETWEEN_CARDS = 1f;
+	public const float MED_CARD_X_POSITION_OFFSET = 2.72f;
+	public const float MED_CARD_HORIZONTAL_SPACE_BETWEEN_CARDS = 0.9f;
 	public const float MED_CARD_Y_POSITION_OFFSET = 5.25f;
 	public const float MED_CARD_VERTICAL_SPACE_BETWEEN_CARDS = 1.34f;
 
-	public const float BIG_CARD_X_POSITION_OFFSET = 3.02f;
-	public const float BIG_CARD_HORIZONTAL_SPACE_BETWEEN_CARDS = 1.2f;
+	public const float BIG_CARD_X_POSITION_OFFSET = 2.88f;
+	public const float BIG_CARD_HORIZONTAL_SPACE_BETWEEN_CARDS = 1.15f;
 	public const float BIG_CARD_Y_POSITION_OFFSET = 5.25f;
 	public const float BIG_CARD_VERTICAL_SPACE_BETWEEN_CARDS = 1.65f;
 
