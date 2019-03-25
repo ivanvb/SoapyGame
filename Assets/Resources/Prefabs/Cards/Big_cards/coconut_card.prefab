@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61603721971009632}
   m_Layer: 0
   m_Name: coconut_card
-  m_TagString: coco
+  m_TagString: coconut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

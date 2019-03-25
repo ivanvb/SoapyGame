@@ -13,6 +13,11 @@ public class ResourcesController : MonoBehaviour {
 	public TextMeshProUGUI textMeshProUGUI;
 	public Slider slider;
 
+	public Image coconutImage;
+	public Image honeyImage;
+	public Image aloeVeraImage;
+	public Image cottonImage;
+
 	Level currentLevel;
 	List<KeyValuePair<string, int>> ingredients;
 	List<TextMeshProUGUI> ingredients_count;
@@ -59,25 +64,16 @@ public class ResourcesController : MonoBehaviour {
 
 	private void InitializeComponents() //Needs refactoring
 	{
-		textMeshProUGUI.rectTransform.localScale = new Vector3(PhysicsConstants.ONE_CANVAS_SCALE, 
-																PhysicsConstants.ONE_CANVAS_SCALE,
-																PhysicsConstants.ONE_CANVAS_SCALE);
-
-		slider.transform.localScale = new Vector3(PhysicsConstants.ONE_CANVAS_SCALE,
-												PhysicsConstants.ONE_CANVAS_SCALE,
-												PhysicsConstants.ONE_CANVAS_SCALE);
-
+		FixScales();
 		float n = PhysicsConstants.CANVAS_OFFSET;
 
 		foreach(KeyValuePair<string, int> ingredient in ingredients)
 		{
-			TextMeshProUGUI currentText = textMeshProUGUI;
-			currentText.text = ingredient.Key;
-			currentText = Instantiate(currentText, new Vector3(-1.2f, 5.05f - n / 196f), new Quaternion());
-			currentText.transform.SetParent(canvas.transform);
+			InstantiateImage(ingredient.Key, n);
+			
 
 			Slider currentSlider = slider;
-			currentSlider = Instantiate(currentSlider, new Vector3(-(1 / 2 - 0.05f), 5f - n / 196f), new Quaternion());
+			currentSlider = Instantiate(currentSlider, new Vector3(-0.45f, 5f - (n -10) / 196f), new Quaternion());
 
 			currentSlider.maxValue = ingredient.Value;
 			currentSlider.minValue = 0;
@@ -85,7 +81,7 @@ public class ResourcesController : MonoBehaviour {
 			currentSlider.transform.SetParent(canvas.transform);
 
 			TextMeshProUGUI ingredient_counter = textMeshProUGUI;
-			ingredient_counter = Instantiate(ingredient_counter, new Vector3(2.4f, 5.05f - n / 196f), new Quaternion());
+			ingredient_counter = Instantiate(ingredient_counter, new Vector3(2.1f, 5.05f - n / 196f), new Quaternion());
 			ingredient_counter.text = "0/" + ingredient.Value.ToString();
 			ingredient_counter.transform.SetParent(canvas.transform);
 			ingredient_counter.name = ingredient.Key + "score_text";
@@ -98,7 +94,56 @@ public class ResourcesController : MonoBehaviour {
 		}
 	}
 
-	
+	private void FixScales()
+	{
+		textMeshProUGUI.rectTransform.localScale = new Vector3(PhysicsConstants.ONE_CANVAS_SCALE,
+																PhysicsConstants.ONE_CANVAS_SCALE,
+																PhysicsConstants.ONE_CANVAS_SCALE);
+
+		slider.transform.localScale = new Vector3(PhysicsConstants.ONE_CANVAS_SCALE * 1.3f,
+													PhysicsConstants.ONE_CANVAS_SCALE ,
+													PhysicsConstants.ONE_CANVAS_SCALE);
+
+		coconutImage.transform.localScale = new Vector3(PhysicsConstants.ONE_CANVAS_SCALE,
+												PhysicsConstants.ONE_CANVAS_SCALE,
+												PhysicsConstants.ONE_CANVAS_SCALE);
+
+		honeyImage.transform.localScale = new Vector3(PhysicsConstants.ONE_CANVAS_SCALE,
+												PhysicsConstants.ONE_CANVAS_SCALE,
+												PhysicsConstants.ONE_CANVAS_SCALE);
+
+		cottonImage.transform.localScale = new Vector3(PhysicsConstants.ONE_CANVAS_SCALE *.85f,
+													PhysicsConstants.ONE_CANVAS_SCALE *.85f,
+													PhysicsConstants.ONE_CANVAS_SCALE);
+
+		aloeVeraImage.transform.localScale = new Vector3(PhysicsConstants.ONE_CANVAS_SCALE,
+												PhysicsConstants.ONE_CANVAS_SCALE,
+												PhysicsConstants.ONE_CANVAS_SCALE);
+	}
+
+	private void InstantiateImage(String ingredientName, float n)
+	{
+		Image imageToInstantiate = null;
+		if(ingredientName == "coconut")
+		{
+			imageToInstantiate = coconutImage;
+		}
+		else if(ingredientName == "honey")
+		{
+			imageToInstantiate = honeyImage;
+		}
+		else if(ingredientName == "aloeVera")
+		{
+			imageToInstantiate = aloeVeraImage;
+		}
+		else if(ingredientName == "cotton")
+		{
+			imageToInstantiate = cottonImage;
+		}
+
+		Image instantiatedImage = Instantiate(imageToInstantiate, new Vector3(-1.9f, 5.05f -  n/ 196f), new Quaternion());
+		instantiatedImage.transform.SetParent(canvas.transform);
+	}
 
 	/* Adds one point to the ingredient counter */
 
@@ -106,6 +151,7 @@ public class ResourcesController : MonoBehaviour {
 	{
 		foreach(TextMeshProUGUI text in ingredients_count)
 		{
+			Debug.Log(text.name + " " + ing);
 			if(text.name.Contains(ing))
 			{
 				Regex totalRegex = new Regex(@"(?<=\/)(\d)+");

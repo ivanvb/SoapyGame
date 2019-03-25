@@ -4,10 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Socrates
-  - Emili
-  - Anuel
-  - Steve_Jobs
   - coco
   - miel
   - agua
@@ -16,6 +12,9 @@ TagManager:
   - virus2
   - virus3
   - aloeVera
+  - cotton
+  - coconut
+  - honey
   layers:
   - Default
   - TransparentFX

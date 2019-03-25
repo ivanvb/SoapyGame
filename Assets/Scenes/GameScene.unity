@@ -1565,6 +1565,14 @@ MonoBehaviour:
   textMeshProUGUI: {fileID: 114054667698125146, guid: 61acb53242165954599d8feed1ef2956,
     type: 2}
   slider: {fileID: 114271647821901634, guid: 4700f97c820fd60428cd181e4ca0250d, type: 2}
+  coconutImage: {fileID: 114804180420431796, guid: 103200c8adb935440a0e713892087a27,
+    type: 2}
+  honeyImage: {fileID: 114961644629971174, guid: 8e4b1af490891b14ba71cfe5017ac5d6,
+    type: 2}
+  aloeVeraImage: {fileID: 114172191088370738, guid: c863e54807a7978459b817c453f6b78e,
+    type: 2}
+  cottonImage: {fileID: 114511435521631192, guid: fb140e9ea6d880b48b87dc961fde9000,
+    type: 2}
 --- !u!114 &1735519338
 MonoBehaviour:
   m_ObjectHideFlags: 0

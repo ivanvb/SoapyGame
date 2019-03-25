@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 61445719835655744}
   m_Layer: 0
   m_Name: cotton_card
-  m_TagString: algodon
+  m_TagString: cotton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

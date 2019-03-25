@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 61605382008473050}
   m_Layer: 0
   m_Name: honey_card
-  m_TagString: miel
+  m_TagString: honey
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
