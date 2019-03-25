@@ -27,6 +27,7 @@ public class TimerBehaviour : MonoBehaviour {
 		scripter = GameObject.Find("Scripter");
 		scripter.GetComponent<GameController>().OnGameStateChange += StartTimer;
 		scripter.GetComponent<LevelLoader>().onLevelLoaded += SetTimer;
+		Fill.color = new Color(0.7764f, 0.8117f, 1);
 		currentColor = Fill.color;
 	}
 

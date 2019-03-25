@@ -16,8 +16,8 @@ public static class PhysicsConstants : object {
 
 	public const float CARD_DELAY_FLIP = 0.15f;
 
-	public const float CARD_APPEARING_X = -2f;
-	public const float CARD_APPEARING_Y = 3.5f;
+	public const float CARD_APPEARING_X = -0;
+	public const float CARD_APPEARING_Y = -1f;
 	public const float CARD_APPEARING_Z = 0f;
 
 	public const float SMALL_CARD_X_POSITION_OFFSET = 2.65f;

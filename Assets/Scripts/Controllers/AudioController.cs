@@ -13,6 +13,7 @@ public class AudioController : MonoBehaviour {
 	public AudioSource victory;
 	public AudioSource shuffleVirus;
 	public AudioSource timerVirus;
+	public AudioSource startAudio;
 
 	GameObject scripter;
 
@@ -67,6 +68,11 @@ public class AudioController : MonoBehaviour {
 	public void PlayTimerVirus()
 	{
 		timerVirus.Play();
+	}
+
+	public void PlayStartSound()
+	{
+		StartCoroutine(PlaySoundWithDelay(2.5f, startAudio));
 	}
 
 }

@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour {
 	{
 		scripter = GameObject.Find("Scripter");
 		scripter.GetComponent<TextAnimController>().PlayStartAnim();
+		GameObject.Find("AudioManager").GetComponent<AudioController>().PlayStartSound();
 		StartCoroutine(GameStartDelay());
 		scripter.GetComponent<CardMatchController>().onVictory += onVictory;
 		GameObject.Find("TimeSlider").GetComponent<TimerBehaviour>().timeIsOver += onTimeOver;
