@@ -68,6 +68,7 @@ public class LevelLoader : MonoBehaviour {
 			for (int j = 0; j < m; j++)
 			{
 				string temporalPath = GetCurrentCardPath(currentLevel.card_arr[x]);
+				Debug.Log(temporalPath);
 				GameObject newCard = Instantiate(Resources.Load(temporalPath) as GameObject, new Vector3(appearing_x, appearing_y, appearing_z), new Quaternion(0, 180, 0, 0));
 				newCard.name = "card";
 				newCard.transform.parent = cards.transform;
@@ -106,21 +107,21 @@ public class LevelLoader : MonoBehaviour {
 	{
 		string temporalPath = newpath;
 
-		if(card_code == CardResourcesConstants.CARD_ANUEL_CODE)
+		if(card_code == CardResourcesConstants.CARD_ALOE_VERA_CODE)
 		{
-			temporalPath += CardResourcesConstants.CARD_ANUEL_FILE;
+			temporalPath += CardResourcesConstants.CARD_ALOE_VERA_FILE;
 		}
-		else if(card_code ==  CardResourcesConstants.CARD_EMILI_CODE)
+		else if(card_code ==  CardResourcesConstants.CARD_HONEY_CODE)
 		{
-			temporalPath += CardResourcesConstants.CARD_EMILI_FILE;
+			temporalPath += CardResourcesConstants.CARD_HONEY_FILE;
 		}
-		else if(card_code == CardResourcesConstants.CARD_SOCRATES_CODE)
+		else if(card_code == CardResourcesConstants.CARD_COCONUT_CODE)
 		{
-			temporalPath += CardResourcesConstants.CARD_SOCRATES_FILE;
+			temporalPath += CardResourcesConstants.CARD_COCONUT_FILE;
 		}
-		else if(card_code == CardResourcesConstants.CARD_STEVE_JOBS_CODE)
+		else if(card_code == CardResourcesConstants.CARD_COTTON_CODE)
 		{
-			temporalPath += CardResourcesConstants.CARD_STEVE_JOBS_FILE;
+			temporalPath += CardResourcesConstants.CARD_COTTON_FILE;
 		}
 		else if (card_code == CardResourcesConstants.CARD_VIRUS1_CODE)
 		{

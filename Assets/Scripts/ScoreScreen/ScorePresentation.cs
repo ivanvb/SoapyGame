@@ -169,7 +169,6 @@ public class ScorePresentation : MonoBehaviour
 		moveUsed = scoreComponents.moves;
 		movePerfect = scoreComponents.movePerfect;
 
-
 	}
 
 
