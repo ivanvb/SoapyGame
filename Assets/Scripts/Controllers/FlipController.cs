@@ -8,8 +8,8 @@ public class FlipController : MonoBehaviour {
 
 	private void Start()
 	{
-		GameObject.Find("Scripter").GetComponent<CardMatchController>().onVictory += FlipAllCards;
-		GameObject.Find("TimeSlider").GetComponent<TimerBehaviour>().timeIsOver += FlipAllCards;
+		GameObject.Find("Scripter").GetComponent<CardMatchController>().onVictory += FlipAllCardToFront;
+		GameObject.Find("TimeSlider").GetComponent<TimerBehaviour>().timeIsOver += FlipAllCardToFront;
 	}
 	// Update is called once per frame
 	void Update () {
@@ -21,6 +21,24 @@ public class FlipController : MonoBehaviour {
 		foreach(GameObject card in cards)
 		{
 			card.GetComponent<CardBehaviour>().FlipCard();
+		}
+	}
+
+	public void FlipAllCardToFront()
+	{
+		StartCoroutine(Wait());
+		
+	}
+
+	private IEnumerator Wait()
+	{
+		yield return new WaitForSeconds(0.5f);
+		foreach (GameObject card in cards)
+		{
+			if (card.GetComponent<CardBehaviour>().GetCardState() != StateConstants.STATE_FRONT_FACING_IDLE)
+			{
+				card.GetComponent<CardBehaviour>().FlipCard();
+			}
 		}
 	}
 }

@@ -8,15 +8,6 @@ public class TextAnimController : MonoBehaviour {
 	public GameObject startText;
 	public GameObject timeOverText;
 	public GameObject victoryText;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	public void PlayStartAnim()
 	{
