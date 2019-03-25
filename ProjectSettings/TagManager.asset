@@ -15,6 +15,7 @@ TagManager:
   - virus1
   - virus2
   - virus3
+  - aloeVera
   layers:
   - Default
   - TransparentFX
