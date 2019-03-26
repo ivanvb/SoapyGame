@@ -54,156 +54,23 @@ using UnityEngine.UI;
 	bool won = false;
 
 	float ingPoints;
+	int cardsMatched = 0;
 
 	List<KeyValuePair<int, int>> ingredients;
 
 
     void Start()
     {
-		LoadScore();
-
-		//just to make timer of animatinos work (timeLeft timer is copy to others)
-		timeAnimation = timeAnimationDelay;
-
-		//timeLeft bar calculations
-		timeFill = (timeLeft / timeTotal);
-
-		float ingri = Mathf.Pow(ingri0, 3) + Mathf.Pow(ingri1, 3) + Mathf.Pow(ingri2, 3); //This is done so 1 (got all ingridient x) is really important.
-		ingri = 1;
-		//Score calculations
+		LoadScoreComponents();
+		CalculateScore();
 		
-		float timeLeftBackup = timeLeft;
-		/*if (moveUsed >= movePerfect)
-		{
-			score = Mathf.Round((((timeLeftBackup / timeTotal) * 100) - ((moveUsed - movePerfect) * 25) + (ingri * 1000) - (virus * 25)) / 10);//resta penalisa, suma premia.
-		}
-		else
-		{
-			score = Mathf.Round((((timeLeftBackup / timeTotal) * 100) - ((movePerfect - moveUsed) * 25) + (ingri * 1000) - (virus * 25)) / 10);//resta penalisa, suma premia.
-		}*/
-
-		score = 4000;
-
-
-		if (score < 0)
-		{
-			score = 0;
-		}
-
-		if (moveUsed == 0)
-		{
-			score = 0;
-		}
-
-		scorePerfect = Mathf.Round(((((timeTotal / 1.5f) / timeTotal) * 100) + pointsCollected + (ingriQuantity * 1000)) / 10); //alternitivly, just use pointscollected, it must be the same as the moveperfect thing.
-																																//each hardcored integer in the formula determines how much weight that element of gameplay has on the score. Ingri is n3 so value 1 is so much important than incomplete ingridients.
-		ingriQuantity = 3;
-		if (score > scorePerfect)
-		{
-			scorePerfect = score; // so soapImageBar stay within 1...cuz score/scoreP would b hihger than 1
-		}
-
-		if (moveUsed == movePerfect && ingri == ingriQuantity)
-		{
-			scorePerfect = scorePerfect + timeLeftBackup * 10;
-			score = scorePerfect;
-		}
-		//disabling UI for animation purposes
-		scoreTextGameObject.SetActive(false);
-
 		StartCoroutine(fillTimeCircle());
-		//StartCoroutine(soapFill());
-		//StartCoroutine(scoreFill());
-		//StartCoroutine(fillMovesCircle());
 
 	}
 
-    void Update() //most scene logic is here. Is wastefull as it checks everything on each update.
-    {
-
-        //display scores
-        /*timeTextObject.text = "Time left: " + timeLeft;
-        timeImageFill.fillAmount = timeFill;
-
-        //Animation of time score
-        if (timeLeft > 0) //checks "timeLeft" Score
-        {
-            if (Time.time > timeAnimation)
-            {
-                timeAnimation = Time.time + timeAnimationDelay;
-                timeLeft = timeLeft - 1f;
-                timeFill = ((timeLeft - .1f) / timeTotal);
-                audioTimeleft.Play();
-            }
-
-
-        }
-
-		 //Moves Score animation
-		 if (timeLeft <= 0) //Flag to know timeLeft animation finish. Must be changed. Needs rework as probably there would be animations inbetween scene events
-		 {
-			 timeImageFill.color = Color.grey;
-			 if (Time.time > timeAnimation) //because last timeleft gives a new entry time.
-			 {
-				 timeAnimation = Time.time + timeAnimationDelay;
-
-				 if (moveCount < movePerfect)
-				 {
-					 moveTextObject.text = "Moves: " + moveCount;
-					 moveCount = moveCount + 1;
-					 moveImageObject.fillAmount = moveImageObject.fillAmount - 1 / movePerfect;
-					 audioMoves.Play();
-				 }//comparing moveUsed to movePerfect
-
-				 if (movePerfect == moveUsed && moveCount == movePerfect)
-				 {
-					 moveTextObject.color = Color.green;
-					 moveTextObject.text = "Perfect moves!";
-				 }
-
-				 if (moveUsed != movePerfect && moveCount >= movePerfect)
-				 {
-					 moveTextObject.text = "Moves: " + moveCount;
-					 moveTextObject.color = Color.yellow;
-
-					 if (moveCount < moveUsed)
-					 {
-
-						 moveCount = moveCount + 1;
-						 moveImageObject0.fillAmount = moveImageObject0.fillAmount - (1 / (2 * movePerfect));
-						 // x2 so if you need souble the moves to win, you are doing pre-tty bad.
-						 audioMoves.Play();
-					 }
-				 }
-
-			 }
-		 }*/
-
-		 //Score animation
-		 /*if (moveCount == moveUsed && flagFinish == 0)
-		 {
-			 divisorImageObject.SetActive(true);
-			 scoreTextGameObject.SetActive(true);
-
-			 scoreTextObject.text = "Score: " + score;
-
-			 if (scoreSoapImageObject0.fillAmount < ingPoints)
-			 {
-
-				 scoreSoapImageObject0.fillAmount = scoreSoapImageObject0.fillAmount + 0.01f;
-			 }
-			 else
-			 {
-				 audioScore.Play();
-				 flagFinish = 1;
-			 }
-
-		 }*/
-
-		
-    }
-
-	private void LoadScore()
+    
+	/* Loads Score from persistent GameObject whose purpose is to communicate between scenes */
+	private void LoadScoreComponents()
 	{
 		ScoreComponents scoreComponents =  GameObject.Find("Communicator").GetComponent<Communicator>().scoreComponents;
 		timeLeft = scoreComponents.timeTaken;
@@ -214,10 +81,30 @@ using UnityEngine.UI;
 
 		virus = scoreComponents.amountOfVirusFlipped;
 
+		cardsMatched = scoreComponents.matchedCards;
 		ingredients = scoreComponents.ingredients;
 		ingPoints = GetIngredientsFraction();
 		won = (ingPoints == 1) ? true : false;
 	}
+
+	private void CalculateScore()
+	{
+		Debug.Log(System.Convert.ToInt32(won));
+		score += cardsMatched * 250;
+		score += System.Convert.ToInt32(won) * 1150;
+		score += ingPoints * 150f;
+		score += (timeLeft / timeTotal) * 300;
+
+		score -= virus * 200;
+		score = (moveUsed > movePerfect) ? score -= (moveUsed - movePerfect) * 100 : score;
+
+		score = (score <= 0) ? 0 : score;
+		score = (int)score;
+	}
+
+	/* Gets a fraction based on the ingredients collected by the user, for this it sums the division of the amount collected 
+	 * of that ingredient/the amount that the user is asked to collect, then adds each one of those sums and divides them by the
+	 * amount of different ingredients asked to the user*/
 
 	private float GetIngredientsFraction()
 	{
@@ -235,52 +122,20 @@ using UnityEngine.UI;
 		return ingPoints;
 	}
 
-	IEnumerator soapFill()
-	{
-		while(scoreSoapImageObject0.fillAmount < ingPoints)
-		{
-			scoreSoapImageObject0.fillAmount = scoreSoapImageObject0.fillAmount + 0.01f;
-			yield return null;
-		}
-		audioScore.Play();
-		
-	}
-
-	IEnumerator scoreFill()
-	{
-		audioTimeleft.loop = true;
-		audioTimeleft.Play();
-		scoreTextGameObject.SetActive(true);
-		
-		float maxScore = score;
-		int currentScore = 0;
-
-		while(currentScore < maxScore)
-		{
-			scoreTextObject.text = "score: " + currentScore;
-			System.Random random = new System.Random();
-			currentScore += random.Next(50, 225);
-			
-			yield return null;
-		}
-
-		scoreTextObject.text = "score: " + maxScore;
-		audioTimeleft.Stop();
-		StartCoroutine(soapFill());
-	}
-
+	/* Fills the circle related to the time and sets the time used Text once its finished, while it is filling the circle
+	 * it is generating random numbers so the user sees a calculating-like animation. Once it's done starts a coroutine on
+	 * the moves circle*/
 	IEnumerator fillTimeCircle()
 	{
-		Debug.Log(timeLeft);
 		audioMoves.Play();
 		audioMoves.loop = true;
 		timeTextObject.text = "Time left: ";
 		timeImageFill.color = Color.grey;
-		float usedTime = ((timeLeft * 100)/timeTotal) * 0.01f;
+		float usedTime = ((timeLeft * 100) / timeTotal) * 0.01f;
 
 		timeImageFill.fillAmount = 1;
 		float fillTime = 0;
-		while(fillTime < usedTime)
+		while (fillTime < usedTime)
 		{
 			fillTime += 0.01f;
 			timeImageFill.fillAmount -= 0.01f;
@@ -295,6 +150,10 @@ using UnityEngine.UI;
 		StartCoroutine(fillMovesCircle());
 	}
 
+	/*Fills the circle of the moves, if the user takes more moves than the required for a MovePerfect, a red circle
+	 * indicating the Movement Surplus starts to get filled. Random numbers are generated and set as the move used amount
+	 * while the circle is being filled to give the illusion of "calculations". Once this coroutine is done calls ScoreFill() */
+
 	IEnumerator fillMovesCircle()
 	{
 		float moves = ((moveUsed * 100) / (float)movePerfect) * 0.01f;
@@ -302,19 +161,19 @@ using UnityEngine.UI;
 		float fillMoves = 0;
 
 		moveImageObject.fillAmount = 1f;
-		while(fillMoves < moves)
+		while (fillMoves < moves && moveImageObject0.fillAmount > 0)
 		{
 			moveTextObject.text = "Moves: " + new System.Random().Next(10, 99).ToString();
 			fillMoves += 0.005f;
 			if (moveImageObject.fillAmount > 0 && moveUsed > movePerfect)
 			{
-				moveImageObject.fillAmount -= 0.005f;
+				moveImageObject.fillAmount -= 0.01f;
 			}
 			else
 			{
-				moveImageObject0.fillAmount -= 0.005f;
+				moveImageObject0.fillAmount -= 0.01f;
 			}
-			
+
 			yield return null;
 		}
 
@@ -323,6 +182,51 @@ using UnityEngine.UI;
 		audioMoves.Stop();
 		StartCoroutine(scoreFill());
 	}
+
+	/* Increments the score on random numbers until they reach the score obtained by the user. Once
+	 * it is finished calls the soapFill() coroutine. */
+	IEnumerator scoreFill()
+	{
+		audioTimeleft.loop = true;
+		audioTimeleft.Play();
+		scoreTextGameObject.SetActive(true);
+
+		float maxScore = score;
+		int currentScore = 0;
+
+		while (currentScore < maxScore)
+		{
+			scoreTextObject.text = "score: " + currentScore;
+			System.Random random = new System.Random();
+			currentScore += random.Next(10, 40);
+
+			yield return null;
+		}
+
+		scoreTextObject.text = "score: " + maxScore;
+		audioTimeleft.Stop();
+		StartCoroutine(soapFill());
+	}
+
+	/* Fills the soap image according to the ingredients obtained by the user */
+	IEnumerator soapFill()
+	{
+		while(scoreSoapImageObject0.fillAmount < ingPoints)
+		{
+			scoreSoapImageObject0.fillAmount = scoreSoapImageObject0.fillAmount + 0.01f;
+			yield return null;
+		}
+		audioScore.Play();
+		
+	}
+
+	
+
+	
+
+	
+
+	
 
 
 }
