@@ -776,15 +776,6 @@ MonoBehaviour:
   audioScore: {fileID: 1551544274}
   timeAnimationDelay: 0.03
   animationSmooth: 1
-  timeLeft: 0
-  timeTotal: 0
-  movePerfect: 0
-  moveUsed: 0
-  pointsCollected: 0
-  ingriQuantity: 0
-  ingri0: 0
-  ingri1: 0
-  ingri2: 0
 --- !u!1 &599011609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,8 +1433,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 446, y: 264}
-  m_SizeDelta: {x: 87.72, y: 100}
+  m_AnchoredPosition: {x: 414, y: 264}
+  m_SizeDelta: {x: 104, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1172327086
 MonoBehaviour:
@@ -1464,7 +1455,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5b6f7ae3b33f9414a8cf3e1cc7c89c7e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b7b415923e7180498ea604aa530a1b6, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1524,7 +1515,7 @@ GameObject:
   - component: {fileID: 1447461035}
   - component: {fileID: 1447461034}
   m_Layer: 0
-  m_Name: chacha2
+  m_Name: ingredients
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2742,8 +2733,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 445.99997, y: 264}
-  m_SizeDelta: {x: 87.72, y: 100}
+  m_AnchoredPosition: {x: 414, y: 264}
+  m_SizeDelta: {x: 104, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1993703077
 MonoBehaviour:
@@ -2764,7 +2755,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5b6f7ae3b33f9414a8cf3e1cc7c89c7e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b7b415923e7180498ea604aa530a1b6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -3,30 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScorePresentation : MonoBehaviour
+  class ScorePresentation : MonoBehaviour
 {
-    public Text timeTextObject;
-    public Text moveTextObject;
-    public Text scoreTextObject;
+      public Text timeTextObject;
+      public Text moveTextObject;
+      public Text scoreTextObject;
 
 
-    public Image timeImageFill;
-    public Image moveImageObject;//upfront to back.
-    public Image moveImageObject0;
-    public Image scoreImageObject0;
-    public Image scoreImageObject1;
-    public Image scoreSoapImageObject0;
-    public Image scoreSoapImageObject1;
+      public Image timeImageFill;
+      public Image moveImageObject;//upfront to back.
+      public Image moveImageObject0;
+      public Image scoreImageObject0;
+      public Image scoreImageObject1;
+      public Image scoreSoapImageObject0;
+      public Image scoreSoapImageObject1;
 
-    public GameObject scoreTextGameObject;
-    public GameObject divisorImageObject;
+      public GameObject scoreTextGameObject;
+      public GameObject divisorImageObject;
 
-    public AudioSource audioTimeleft;
-    public AudioSource audioMoves;
-    public AudioSource audioScore;
+      public AudioSource audioTimeleft;
+      public AudioSource audioMoves;
+      public AudioSource audioScore;
 
-    public float timeAnimationDelay;
-    public float animationSmooth;
+      public float timeAnimationDelay;
+      public float animationSmooth;
 
     protected float timeAnimation;
     protected float timeAnimation0;
@@ -39,18 +39,20 @@ public class ScorePresentation : MonoBehaviour
     
 
     //to be passed by game scene
-    public float timeLeft;
-    public float timeTotal; //total time given
-    public float movePerfect;
-    public float moveUsed;
-    public int pointsCollected; //cuz maybe he got a streak
-    public float ingriQuantity;//numbers of ingridientss. regardless, its a fraction so max always is 1.
+      float timeLeft;
+      float timeTotal; //total time given
+      float movePerfect;
+      float moveUsed;
+      int pointsCollected; //cuz maybe he got a streak
+      float ingriQuantity = 3;//numbers of ingridientss. regardless, its a fraction so max always is 1.
     //discuss how team handles ingri fractions so what it could pass easily...total ingri1 and collected Ingri1 or numbersOfIngri and ingriSUM, or an int and always /3 or a float .....??? ingru number varies.    
-    public float ingri0;
-    public float ingri1;
-    public float ingri2;
-    //public static ArrayList ingriArray = new ArrayList<> { ingri0, ingri1, ingri2 }; how the heck to declare array list in c#
-    public static int virus;
+      float ingri0 = 0;
+      float ingri1 = 0 ;
+      float ingri2 = 0;
+    //  static ArrayList ingriArray = new ArrayList<> { ingri0, ingri1, ingri2 }; how the heck to declare array list in c#
+      int virus;
+
+	float ingPoints;
 
 	List<KeyValuePair<int, int>> ingredients;
 
@@ -58,6 +60,8 @@ public class ScorePresentation : MonoBehaviour
     void Start()
     {
 		LoadScore();
+		Debug.Log(ingPoints);
+
 		//just to make timer of animatinos work (timeLeft timer is copy to others)
 		timeAnimation = timeAnimationDelay;
 
@@ -67,6 +71,7 @@ public class ScorePresentation : MonoBehaviour
 		float ingri = Mathf.Pow(ingri0, 3) + Mathf.Pow(ingri1, 3) + Mathf.Pow(ingri2, 3); //This is done so 1 (got all ingridient x) is really important.
 		ingri = 1;
 		//Score calculations
+		movePerfect = 1;
 		float timeLeftBackup = timeLeft;
 		if (moveUsed >= movePerfect)
 		{
@@ -90,7 +95,7 @@ public class ScorePresentation : MonoBehaviour
 
 		scorePerfect = Mathf.Round(((((timeTotal / 1.5f) / timeTotal) * 100) + pointsCollected + (ingriQuantity * 1000)) / 10); //alternitivly, just use pointscollected, it must be the same as the moveperfect thing.
 																																//each hardcored integer in the formula determines how much weight that element of gameplay has on the score. Ingri is n3 so value 1 is so much important than incomplete ingridients.
-
+		ingriQuantity = 3;
 		if (score > scorePerfect)
 		{
 			scorePerfect = score; // so soapImageBar stay within 1...cuz score/scoreP would b hihger than 1
@@ -174,13 +179,11 @@ public class ScorePresentation : MonoBehaviour
             scoreTextGameObject.SetActive(true);
 
             scoreTextObject.text = "Score: " + score;
-            
-            
 
-            if (scoreImageObject0.fillAmount < score/scorePerfect)
+            if (scoreSoapImageObject0.fillAmount < ingPoints)
             {
-                scoreImageObject0.fillAmount = scoreImageObject0.fillAmount + .05f;
-                scoreSoapImageObject0.fillAmount = scoreSoapImageObject0.fillAmount + 0.05f;
+                
+                scoreSoapImageObject0.fillAmount = scoreSoapImageObject0.fillAmount + 0.01f;
             }
             else
             {
@@ -204,6 +207,25 @@ public class ScorePresentation : MonoBehaviour
 		virus = scoreComponents.amountOfVirusFlipped;
 
 		ingredients = scoreComponents.ingredients;
+		ingPoints = GetIngredientsFraction();
+	}
+
+	private float GetIngredientsFraction()
+	{
+		float ingPoints = 0;
+		Debug.Log(ingredients.Count);
+		if (ingredients.Count > 0)
+		{
+			for (int i = 0; i < ingredients.Count; i++)
+			{
+				Debug.Log(ingredients[i].Key + "/" + ingredients[i].Value);
+				ingPoints += ingredients[i].Key / (float)ingredients[i].Value;
+			}
+
+			ingPoints = ingPoints/ingredients.Count;
+		}
+
+		return ingPoints;
 	}
 
 
