@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -74,14 +75,24 @@ public class GameController : MonoBehaviour {
 		float maxTime = GameObject.Find("TimeSlider").GetComponent<TimerBehaviour>().GetMaxTime();
 		float userTime = GameObject.Find("TimeSlider").GetComponent<TimerBehaviour>().GetUserTime();
 
-		int perfectMoves = GameObject.Find("Scripter").GetComponent<LevelLoader>().GetNonVirusCards();
 		int userMoves = GameObject.Find("Moves").GetComponent<MovesBehaviour>().GetScore();
+
+		scoreComponents.ingredients = GameObject.Find("Scripter").GetComponent<ResourcesController>().getIngredients();
 
 		scoreComponents.maxTime = maxTime;
 		scoreComponents.timeTaken = userTime;
 
+		int perfectMoves = 0;
+		foreach(KeyValuePair<int, int> pair in  scoreComponents.ingredients){
+			perfectMoves += pair.Value;
+		}
+		perfectMoves *= 2;
+		
 		scoreComponents.movePerfect = perfectMoves;
 		scoreComponents.moves = userMoves;
+
+		scoreComponents.amountOfVirusFlipped = GameObject.Find("Scripter").GetComponent<CardMatchController>().virusCount;
+		scoreComponents.matchedCards = GameObject.Find("Scripter").GetComponent<CardMatchController>().matchCount;
 
 		GameObject.Find("Communicator").GetComponent<Communicator>().SetScoreComponent(scoreComponents);
 	}

@@ -50,29 +50,61 @@ public class ScorePresentation : MonoBehaviour
     public float ingri1;
     public float ingri2;
     //public static ArrayList ingriArray = new ArrayList<> { ingri0, ingri1, ingri2 }; how the heck to declare array list in c#
-    public static float virus;
+    public static int virus;
+
+	List<KeyValuePair<int, int>> ingredients;
 
 
     void Start()
     {
 		LoadScore();
-        //just to make timer of animatinos work (timeLeft timer is copy to others)
-        timeAnimation = timeAnimationDelay;
+		//just to make timer of animatinos work (timeLeft timer is copy to others)
+		timeAnimation = timeAnimationDelay;
 
-        //timeLeft bar calculations
-        timeFill = (timeLeft / timeTotal);
+		//timeLeft bar calculations
+		timeFill = (timeLeft / timeTotal);
+
+		float ingri = Mathf.Pow(ingri0, 3) + Mathf.Pow(ingri1, 3) + Mathf.Pow(ingri2, 3); //This is done so 1 (got all ingridient x) is really important.
+		ingri = 1;
+		//Score calculations
+		float timeLeftBackup = timeLeft;
+		if (moveUsed >= movePerfect)
+		{
+			score = Mathf.Round((((timeLeftBackup / timeTotal) * 100) - ((moveUsed - movePerfect) * 25) + (ingri * 1000) - (virus * 25)) / 10);//resta penalisa, suma premia.
+		}
+		else
+		{
+			score = Mathf.Round((((timeLeftBackup / timeTotal) * 100) - ((movePerfect - moveUsed) * 25) + (ingri * 1000) - (virus * 25)) / 10);//resta penalisa, suma premia.
+		}
 
 
-        //Score calculations
-        float timeLeftBackup = timeLeft;
-        score = Mathf.Round((timeLeftBackup * 40) + pointsCollected*40 - ((moveUsed - movePerfect) * 30) + ((ingri0 * ingri0 * ingri0 + ingri1 * ingri1 * ingri1 + ingri2 * ingri2 * ingri2) * 200) - (virus * 30));//resta penalisa, suma premia.
-        scorePerfect = Mathf.Round((timeTotal * 40) + ((movePerfect-1)*40) + (ingriQuantity * 200)); //alternitivly, just use pointscollected, it must be the same as the moveperfect thing.
-        //each hardcored integer in the formula determines how much weight that element of gameplay has on the score. Ingri is n3 so value 1 is so much important than incomplete ingridients.
+		if (score < 0)
+		{
+			score = 0;
+		}
 
-        //disabling UI for animation purposes
-        scoreTextGameObject.SetActive(false);
+		if (moveUsed == 0)
+		{
+			score = 0;
+		}
 
-    }
+		scorePerfect = Mathf.Round(((((timeTotal / 1.5f) / timeTotal) * 100) + pointsCollected + (ingriQuantity * 1000)) / 10); //alternitivly, just use pointscollected, it must be the same as the moveperfect thing.
+																																//each hardcored integer in the formula determines how much weight that element of gameplay has on the score. Ingri is n3 so value 1 is so much important than incomplete ingridients.
+
+		if (score > scorePerfect)
+		{
+			scorePerfect = score; // so soapImageBar stay within 1...cuz score/scoreP would b hihger than 1
+		}
+
+		if (moveUsed == movePerfect && ingri == ingriQuantity)
+		{
+			scorePerfect = scorePerfect + timeLeftBackup * 10;
+			score = scorePerfect;
+		}
+		//disabling UI for animation purposes
+		scoreTextGameObject.SetActive(false);
+
+	}
 
     void Update() //most scene logic is here. Is wastefull as it checks everything on each update.
     {
@@ -169,6 +201,9 @@ public class ScorePresentation : MonoBehaviour
 		moveUsed = scoreComponents.moves;
 		movePerfect = scoreComponents.movePerfect;
 
+		virus = scoreComponents.amountOfVirusFlipped;
+
+		ingredients = scoreComponents.ingredients;
 	}
 
 

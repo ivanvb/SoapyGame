@@ -13,7 +13,9 @@ public class ScoreComponents{
 
 	public bool won { get; set; }
 
-	List<KeyValuePair<int, int>> ingredients { get; set; }
+	public List<KeyValuePair<int, int>> ingredients { get; set; }
+
+	public int matchedCards;
 
 	public ScoreComponents()
 	{

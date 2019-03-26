@@ -203,7 +203,7 @@ public class LevelLoader : MonoBehaviour {
 		int nonVirus = 0;
 		foreach(string card in currentLevel.card_arr)
 		{
-			if(!card.Contains("V"))
+			if(card != "V1" && card != "V2")
 			{
 				nonVirus++;
 			}

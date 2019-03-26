@@ -186,5 +186,26 @@ public class ResourcesController : MonoBehaviour {
 		}
 	}
 
+	public List<KeyValuePair<int, int>> getIngredients()
+	{
+		List<KeyValuePair<int, int>> ingredients = new List<KeyValuePair<int, int>>();
+		foreach(TextMeshProUGUI text in ingredients_count)
+		{
+			Regex totalRegex = new Regex(@"(?<=\/)(\d)+");
+			Match matchTotal = totalRegex.Match(text.text);
+
+			Regex regex = new Regex(@"(\d)+(?=\/)");
+			Match match = regex.Match(text.text);
+
+			int current_score = Convert.ToInt32(match.ToString());
+			int total_score = Convert.ToInt32(matchTotal.ToString());
+
+			ingredients.Add(new KeyValuePair<int, int>(current_score, total_score));
+
+		}
+
+		return ingredients;
+	}
+
 }
 

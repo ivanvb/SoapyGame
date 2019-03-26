@@ -26,6 +26,8 @@ public class CardMatchController : MonoBehaviour {
 	public delegate void OnCardDeleted(GameObject card);
 	public event OnCardDeleted onCardDeleted;
 
+	public int virusCount = 0;
+	public int matchCount = 0;
 	private void Start()
 	{
 		LoadCardsList();
@@ -75,6 +77,7 @@ public class CardMatchController : MonoBehaviour {
 					if(onVirusFlipped != null && gameController.IsGamePlayable())
 					{
 						virusCard = cardTransform;
+						virusCount++;
 					}
 				}else if (card1 == null )
 				{
@@ -114,6 +117,7 @@ public class CardMatchController : MonoBehaviour {
 	/* Removes two matches cards from the game  and from the Transform's list.*/
 	private void DeleteMatchedCards(GameObject card1, GameObject card2)
 	{
+		matchCount++;
 		childCardsTransforms.Remove(card1.transform);
 		childCardsTransforms.Remove(card2.transform);
 
