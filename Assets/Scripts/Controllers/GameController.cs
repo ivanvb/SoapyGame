@@ -85,6 +85,7 @@ public class GameController : MonoBehaviour {
 		int perfectMoves = 0;
 		foreach(KeyValuePair<int, int> pair in  scoreComponents.ingredients){
 			perfectMoves += pair.Value;
+			
 		}
 		perfectMoves *= 2;
 		

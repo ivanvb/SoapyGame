@@ -5,8 +5,8 @@
 			"tablero" : [4, 3],
 			"timer" : 12,
 			"card_size" : "big",
-			"card_arr" : ["C", "CT", "AV", "H",
-						  "C", "CT", "AV", "H",
+			"card_arr" : ["C", "CT", "C", "H",
+						  "C", "CT", "C", "H",
 						  "AV", "CT", "AV", "CT"],
 			"ingredients" : ["coconut2", "honey1", "cotton2"],
 			"score" : 0,
@@ -97,7 +97,7 @@
 
 	  {
          "tablero" : [2, 3],
-         "timer" : 45,
+         "timer" : 1,
          "card_size" : "small",
          "card_arr" : ["C", "CT",
                       "C", "CT",
