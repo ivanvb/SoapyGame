@@ -163,10 +163,10 @@ public class CardBehaviour : MonoBehaviour {
 		card_state = StateConstants.STATE_MOVING;
 	}
 
-	/* Flips card on click */
-	private void OnMouseDown()
+
+	public void CardClicked()
 	{
-		if(can_flip && GameObject.Find("Scripter").GetComponent<CardCommander>().CheckIfCanFlip())
+		if (can_flip && GameObject.Find("Scripter").GetComponent<CardCommander>().CheckIfCanFlip())
 		{
 			if (card_state == StateConstants.STATE_BACK_FACING_IDLE || card_state == StateConstants.STATE_FRONT_FACING_IDLE)
 			{
@@ -174,8 +174,8 @@ public class CardBehaviour : MonoBehaviour {
 			}
 			FlipCard();
 		}
-		
 	}
+
 
 
 	/* Sets the card destination position to the destruction_position */

@@ -65,7 +65,7 @@ using UnityEngine.UI;
 		CalculateScore();
 		
 		StartCoroutine(fillTimeCircle());
-
+		//SaveToJson();
 	}
 
     
@@ -89,7 +89,6 @@ using UnityEngine.UI;
 
 	private void CalculateScore()
 	{
-		Debug.Log(System.Convert.ToInt32(won));
 		score += cardsMatched * 250;
 		score += System.Convert.ToInt32(won) * 1150;
 		score += ingPoints * 150f;
@@ -160,12 +159,15 @@ using UnityEngine.UI;
 
 		float fillMoves = 0;
 
+		Debug.Log(moveUsed + " " + movePerfect);
+		Debug.Log(moves);
+		
 		moveImageObject.fillAmount = 1f;
 		while (fillMoves < moves && moveImageObject0.fillAmount > 0)
 		{
 			moveTextObject.text = "Moves: " + new System.Random().Next(10, 99).ToString();
-			fillMoves += 0.005f;
-			if (moveImageObject.fillAmount > 0 && moveUsed > movePerfect)
+			fillMoves += 0.01f;
+			if (moveImageObject.fillAmount > 0)
 			{
 				moveImageObject.fillAmount -= 0.01f;
 			}
@@ -219,6 +221,25 @@ using UnityEngine.UI;
 		audioScore.Play();
 		
 	}
+
+	/*private void SaveToJson()
+	{
+		
+		
+		Level currentlevel = GameObject.Find("Communicator").GetComponent<Communicator>().GetLevel();
+		LevelList levels = GameObject.Find("Communicator").GetComponent<Communicator>().levelList;
+		if (score > currentlevel.score)
+		{
+			currentlevel.score = (int)score;
+			string s = JsonUtility.ToJson(levels);
+			System.IO.File.WriteAllText(Application.dataPath + "/Resources/Level.json", s);
+			levels.Level[levels.Level.FindIndex(ind => ind.Equals(currentlevel))] = currentlevel;
+		}
+		
+		
+
+		Debug.Log(currentlevel.score);
+	}*/
 
 	
 

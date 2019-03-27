@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4422088674679018}
   - component: {fileID: 114433458650074704}
-  - component: {fileID: 61152955389631898}
+  - component: {fileID: 65768746281534648}
   m_Layer: 0
   m_Name: virus_2_card
   m_TagString: virus2
@@ -101,31 +101,18 @@ Transform:
   m_Father: {fileID: 4422088674679018}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61152955389631898
-BoxCollider2D:
+--- !u!65 &65768746281534648
+BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1136561240847138}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.008646429}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.363156}
-  m_EdgeRadius: 0
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114433458650074704
 MonoBehaviour:
   m_ObjectHideFlags: 1

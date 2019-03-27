@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Behaviour\CardBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviour\MovesBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviour\TimerBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Behaviour\TouchDetector.cs" />
     <Compile Include="Assets\Scripts\Communicator\Communicator.cs" />
     <Compile Include="Assets\Scripts\Constants\CardResourcesConstants.cs" />
     <Compile Include="Assets\Scripts\Constants\PhysicsConstants.cs" />

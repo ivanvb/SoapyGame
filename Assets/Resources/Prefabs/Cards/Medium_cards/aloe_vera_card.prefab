@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4918155031072212}
   - component: {fileID: 114904691540232618}
-  - component: {fileID: 61647350741956122}
+  - component: {fileID: 65166598997010934}
   m_Layer: 0
   m_Name: aloe_vera_card
   m_TagString: aloeVera
@@ -101,31 +101,18 @@ Transform:
   m_Father: {fileID: 4918155031072212}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61647350741956122
-BoxCollider2D:
+--- !u!65 &65166598997010934
+BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1231544805403834}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.008646429}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.3631564}
-  m_EdgeRadius: 0
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114904691540232618
 MonoBehaviour:
   m_ObjectHideFlags: 1

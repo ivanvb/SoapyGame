@@ -1,0 +1,110 @@
+{
+   "Level": [
+	
+		{
+			"tablero" : [4, 3],
+			"timer" : 5,
+			"card_size" : "big",
+			"card_arr" : ["C", "CT", "AV", "H",
+						  "C", "CT", "AV", "H",
+						  "AV", "CT", "AV", "CT"],
+			"ingredients" : ["coconut2", "honey1", "cotton2"],
+			"score" : 0,
+			"stars" : 0
+		},
+
+		{
+         "tablero" : [5, 4],
+         "timer" : 60,
+         "card_size" : "med",
+         "card_arr" : ["C", "CT", "AV", "H","AV",
+                      "C", "CT", "AV", "H", "AV",
+                      "C", "CT", "AV", "H", "AV",
+					  "C", "CT", "AV", "H", "AV"],
+          "ingredients" : ["coconut2", "honey1", "cotton3"],
+          "score" : 0,
+          "stars" : 0
+      },
+
+		{
+			"tablero" : [6, 5],
+			"timer" : 5,
+			"card_size" : "small",
+			"card_arr" : ["AV", "H", "CT", "C", "AV", "AV",
+						   "H", "C", "AV", "H", "CT", "AV",
+						   "H", "AV", "C", "C", "CT", "H",
+						   "H", "C", "AV", "H", "CT", "AV",
+						   "H", "AV", "C", "CT", "CT", "AV"],
+						   
+			"ingredients" : ["coconut2", "honey1", "cotton3", "aloeVera2"],
+			"score" : 0,
+			"stars" : 0
+		},
+
+		{
+			"tablero" : [6, 5],
+			"timer" : 35,
+			"card_size" : "small",
+			"card_arr" : ["AV", "H", "CT", "C", "V1", "V1",
+						   "H", "C", "V1", "V1", "CT", "AV",
+						   "H", "AV", "V1", "C", "V1", "H",
+						   "H", "V1", "V2", "H", "CT", "AV",
+						   "V1", "V1", "C", "V1", "CT", "AV"],
+						   
+			"ingredients" : ["coconut2", "honey1", "cotton3", "aloeVera2"],
+			"score" : 0,
+			"stars" : 0
+		},
+
+		{
+			"tablero" : [6, 5],
+			"timer" : 75,
+			"card_size" : "small",
+			"card_arr" : ["AV", "H", "CT", "C", "AV", "AV",
+						   "V2", "C", "AV", "H", "CT", "AV",
+						   "V2", "AV", "C", "C", "CT", "H",
+						   "H", "C", "AV", "H", "CT", "AV",
+						   "H", "AV", "C", "CT", "CT", "AV"],
+						   
+			"ingredients" : ["coconut2", "honey1", "cotton3", "aloeVera2"],
+			"score" : 0,
+			"stars" : 0
+		},
+	
+      {
+         "tablero" : [5, 3],
+         "timer" : 45,
+         "card_size" : "small",
+         "card_arr" : ["C", "CT", "AV", "H", "V1",
+                      "C", "CT", "AV", "H", "V2",
+                      "C", "CT", "AV", "H", "V1"],
+        "ingredients" : ["coconut2", "honey1", "cotton3"],
+          "score" : 0,
+          "stars" : 0
+      },
+
+	  {
+         "tablero" : [5, 3],
+         "timer" : 45,
+         "card_size" : "big",
+         "card_arr" : ["C", "CT", "AV", "H", "V1",
+                      "C", "CT", "AV", "H", "V2",
+                      "C", "CT", "AV", "H", "V1"],
+        "ingredients" : ["coconut2", "honey1", "cotton3"],
+          "score" : 0,
+          "stars" : 0
+      },
+
+	  {
+         "tablero" : [2, 3],
+         "timer" : 2,
+         "card_size" : "small",
+         "card_arr" : ["C", "CT",
+                      "C", "CT",
+					  "AV", "AV"],
+        "ingredients" : ["coconut2", "honey1", "cotton3"],
+          "score" : 0,
+          "stars" : 0
+      }
+   ]
+}

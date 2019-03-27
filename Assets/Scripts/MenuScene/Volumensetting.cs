@@ -8,8 +8,12 @@ public class Volumensetting : MonoBehaviour
     public Slider volume;
     public AudioSource mymusic;
 
-    // Update is called once per frame
-    void Update()
+	private void Start()
+	{
+		
+	}
+	// Update is called once per frame
+	void Update()
     {
 		if(volume != null)
 		{

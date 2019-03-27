@@ -14,5 +14,6 @@ public class HomeScript : MonoBehaviour {
 	void OpenLevelPickerScene()
 	{
 		SceneManager.LoadScene("MenuScene", LoadSceneMode.Single);
+		Destroy(GameObject.Find("MusicManager"));
 	}
 }
