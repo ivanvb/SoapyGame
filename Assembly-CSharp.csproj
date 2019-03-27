@@ -79,6 +79,10 @@
     <Compile Include="Assets\Scripts\Controllers\ResourcesController.cs" />
     <Compile Include="Assets\Scripts\Controllers\TextAnimController.cs" />
     <Compile Include="Assets\Scripts\Controllers\VirusController.cs" />
+    <Compile Include="Assets\Scripts\MenuScene\ButtonScript.cs" />
+    <Compile Include="Assets\Scripts\MenuScene\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\MenuScene\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\MenuScene\Volumensetting.cs" />
     <Compile Include="Assets\Scripts\ScoreScreen\HomeScript.cs" />
     <Compile Include="Assets\Scripts\ScoreScreen\LevelPickerScript.cs" />
     <Compile Include="Assets\Scripts\ScoreScreen\NextLevelScript.cs" />

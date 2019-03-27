@@ -23,11 +23,6 @@ public class AudioController : MonoBehaviour {
 		scripter.GetComponent<CardMatchController>().onVictory += PlayVictorySound;
 
 		GameObject.Find("TimeSlider").GetComponent<TimerBehaviour>().timeIsOver += PlayTimeOverSound;
-
-		
-
-
-		gameBackgroundMusic.Play();
 	}
 	
 
